@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+ul>li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+.button{
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #2aaab5fd;
+    height: 80px;
+}
+
+/* Main header */
+.div{
+    background-image: url(./img/bg1.jpeg);
+    height: 300vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.main-1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding: 80px;
+}
+.show{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Cakes */
+.img{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.cake-name{
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13px;
+    color: brown;
+    margin-bottom: 80px;
+}
+
+/* delivery */
+.tag-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/* footer */
+.foot{
+    margin-top: 90px;
+    background-image: url(./img/kbt\ bg.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 100px;
+}
+#msnger{
+    color: #d745a4;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    font-size: xx-large;
+    margin-right: 20px;
+}
+#whtsapp{
+    color: green;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+.foot-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hr{
+    width: 80%;
+    color: whitesmoke;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.done{
+    height: 100px;
+    width: 100px;
+}
+.done-1{
+    display: flex;
+    justify-content: space-around;
+}
